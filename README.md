@@ -101,17 +101,22 @@ python -c "import pe78.cymb; import pe78.snare; import pe78.twint"
 
 ### Render a rhythm pattern
 
-`wdf_rithm.py` generates a WAV file from one of the M252AA patterns:
-
-```python
-# edit the configuration at the top of wdf_rithm.py
-BPM     = 120
-PATTERN = 3        # M252AA pattern index
-OUTPUT  = "demo.wav"
-```
+`wdf_rithm.py` is now interactive. You can run it and follow the on-screen menu to choose a rhythm, tempo, and duration:
 
 ```bash
 python wdf_rithm.py
+```
+
+You can also pass parameters directly as command-line arguments:
+```
+python wdf_rithm.py <rhythm_number> [bpm] [bars]
+```
+
+Example:
+
+```
+# Generate 8 bars of the 3rd rhythm at 128 BPM
+python wdf_rithm.py 3 128 8
 ```
 
 ### Use individual voices

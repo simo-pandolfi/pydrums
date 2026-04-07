@@ -119,6 +119,22 @@ Example:
 python wdf_rithm.py 3 128 8
 ```
 
+
+When you run a synthesis, the script performs the following steps:
+
+*Snare Diagnosis*: It automatically runs a 500ms test on the Snare model to check peak voltage and envelope conduction.  
+
+*WDF Model Initialization*: It initializes the specific Virtual Analog trees for the instruments required by the pattern (Bass Drum, Snare, Bongos, Congas, etc.).  
+
+*Sample-by-Sample Processing*: The engine calculates every single sample at the defined Sample Rate (default 48kHz), emulating the physical behavior of the original circuit.  
+
+*Output*: A normalized 16-bit WAV file is saved in the project root with a descriptive name (e.g., `pe78_rock_1_120bpm_4bar.wav`).
+
+> **Technical Note on Triggering**: In the original PE78 circuit, the Hi Bongo (HB) bus is physically hardwired to the Snare Drum (SD) trigger. This means that every snare hit also triggers the Hi Bongo voice, a detail reproduced in this implementation.
+
+### Example Audio
+If you want to listen to the models without running the code, pre-generated simulation results (4-bar loops) are available in the sequencer/ folder. These files demonstrate the current state of the Virtual Analog synthesis for all rhythmic patterns.
+
 ### Use individual voices
 
 ```python

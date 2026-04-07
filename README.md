@@ -180,7 +180,6 @@ and returns the audio output in volts.
   physical PE78 unit.
 - **NOISE_AMP = 0.04** is matched to the LTspice behavioural noise source,
   not to a physical measurement of TR2 (BC108B in reverse breakdown).
-- Full list of limitations: see `DEVELOPMENT_LOG.md § Known Limitations`.
 
 ---
 

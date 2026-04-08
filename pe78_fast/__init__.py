@@ -1,5 +1,5 @@
 #PE 1978 Virtual Analog DIY e-Drums
-#Copyright (c) 2026 [Tuo Nome]
+#Copyright (c) 2026 Simone Pandolfi
 #SPDX-License-Identifier: MIT OR Apache-2.0
 """
 pe78_fast — Numba JIT acceleration package for the PE78 drum engine

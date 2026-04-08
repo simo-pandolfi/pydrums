@@ -1,5 +1,5 @@
 #PE 1978 Virtual Analog DIY e-Drums
-#Copyright (c) 2026 [Tuo Nome]
+#Copyright (c) 2026 Simone Pandolfi
 #SPDX-License-Identifier: MIT OR Apache-2.0
 """
 wdf_kernels.py — Numba JIT kernels for PE78 WDF hot paths

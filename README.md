@@ -27,7 +27,7 @@ source from which most DIY drum circuits of that era descend — several near-id
 designs have been found in other publications of the period.
 
 The implementation therefore combines the PE78 circuit (used as the primary
-schematic reference, component name and LTspice validation target) with the M252AA rhythm patterns,
+schematic reference, component name and LTspice validation target) with M252AA inspired rhythm patterns,
 which correspond to the sequencer in the original *Nuova Elettronica* build.
 
 ---
@@ -37,7 +37,7 @@ which correspond to the sequencer in the original *Nuova Elettronica* build.
 The PE78 circuit produces nine percussion voices using two distinct synthesis
 approaches:
 
-- **Twin-T oscillators** (Bass Drum, Hi Bongo, Low Bongo, Claves, Conga) —
+- **Twin-T oscillators** (Bass Drum, Hi Bongo, Low Bongo, Conga Drum, Claves, Conga) —
   damped sinusoidal oscillators triggered by edge-detection circuits (Fig. 7)
 - **Filtered white noise** (Snare Drum, Long Cymbal, Short Cymbal, Maracas) —
   transistor noise generators with RC envelope networks amplified by a BJT

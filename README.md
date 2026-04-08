@@ -56,7 +56,7 @@ between the first and second bar, while featuring a custom set of original patte
 ## Project structure
 
 ```
-pydrums/
+py78drums/
 ├── ltspice/           # Circuit simulation
 ├── pe78/
 │   ├── cymb.py        # Long Cymbal / Short Cymbal / Maracas (Fig. 6 bottom)
